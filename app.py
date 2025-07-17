@@ -469,5 +469,4 @@ def main():
 
 app.add_url_rule('/app', 'webio_view', webio_view(main), methods=['GET', 'POST'])
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8034)
+
